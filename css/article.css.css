@@ -3,10 +3,17 @@
   padding-bottom: 50px;
 }
 
+.article__descr {
+  margin-bottom: 50px;
+}
+
 .chapter {
   margin: 0 auto;
   padding: 0 30px 50px;
-  max-width: 1140px;
+}
+
+.chapter:last-child {
+  margin-bottom: 0;
 }
 
 .article__title {
@@ -16,13 +23,15 @@
 }
 
 .accent {
-  margin-bottom: 50px;
-  padding: 25px 30px;
+  margin: 0 auto;
+  padding: 25px 18px;
+  max-width: 1140px;
   background-color: #f1f1f1;
   border-radius: 10px;
 }
 
 .accent__title {
+  margin-bottom: 20px;
   font-weight: 700;
   font-size: 44px;
 }
@@ -31,27 +40,36 @@
   margin-bottom: 10px;
 }
 
+.navigation {
+  margin-bottom: 50px;
+}
+
 .navigation__item {
   color: #02535f;
 }
 
-.accent__list {
-  margin-bottom: 30px;
+.navigation__list {
+  padding-left: 25px;
 }
 
 .navigation__link {
   display: inline-block;
-  border-bottom: 1px solid #02535f;
+  border-bottom: 1px solid #000;
   color: #02535f;
 }
 
-.chapter01__block:not(:last-child) {
-  margin-bottom: 30px;
+.navigation__item:not(:last-child) {
+  margin-bottom: 9px;
 }
+
 .chapter__title {
   margin-bottom: 30px;
   font-weight: 900;
   font-size: 36px;
+}
+
+.chapter01__block:not(:last-child) {
+  margin-bottom: 30px;
 }
 
 .chapter01__item {
@@ -59,15 +77,19 @@
   vertical-align: top;
 }
 
-.chapter01__item:nth-child(odd) {
-  margin-right: 30px;
+.chapter01__item:nth-child(1) {
+  margin-right: 28px;
+  max-width: 558px;
 }
-ul.chapter01__item {
-  max-width: 480px;
+.chapter01__item:nth-child(2) {
+  max-width: 487px;
 }
 
-.chapter01__item:first-child {
-  margin-bottom: 30px;
+.chapter01__block:last-child .chapter01__item:nth-child(1) {
+  max-width: 480px;
+}
+.chapter01__block:last-child .chapter01__item:nth-child(2) {
+  max-width: 560px;
 }
 
 .chapter01__text:not(:last-child) {
@@ -79,6 +101,30 @@ ul.chapter01__item {
   margin-bottom: 30px;
 }
 
+.chapter03 figure:last-child img {
+  margin-bottom: 0;
+}
+
 p:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.serious {
+  margin-bottom: 30px;
+}
+
+.serious img {
+  margin-bottom: 0;
+  border-top: 1px solid #000;
+}
+
+figcaption {
+  padding: 15px 30px;
+  color: #5e5e5e;
+  border: 1px solid #000;
+  border-top: none;
+}
+
+.accent__list {
   margin-bottom: 30px;
 }

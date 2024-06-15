@@ -93,6 +93,11 @@ ul {
   margin: 0;
 }
 
+ol {
+  padding: 0;
+  margin: 0;
+}
+
 h1,
 h2,
 h3,
@@ -112,7 +117,7 @@ iframe {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1140px;
   padding: 0 30px;
   margin: 0 auto;
 }
